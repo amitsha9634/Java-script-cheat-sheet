@@ -32,3 +32,33 @@ const myfunction = function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+
+let myname = "Amit";
+
+let anothername = myname
+anothername = "Sachin"
+
+console.log(myname);
+console.log(anothername);
+
+
+let userOne ={
+    email: "amit@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sachin@gmail.com"
+userTwo.upi = "user@abc"
+
+
+console.log(userOne);
+console.log(userTwo);
